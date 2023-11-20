@@ -16,7 +16,7 @@ console.log(full_price);
 
 // Sconto prezzo del biglietto in base all'età
 
-// 5 - Sconto del 20% per i minorenni e del 40% per gli over 60
+// 5 - Sconto del 20% per i minorenni e del 40% per gli over 65
 if (eta < 18){
     full_price = full_price * 0.8;
     console.log(full_price);
