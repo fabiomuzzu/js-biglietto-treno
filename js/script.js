@@ -38,3 +38,6 @@ else{
 let price = full_price.toFixed(2);
 console.log(price)
 
+// Bonus:
+// Mostrare output in HTML;
+document.getElementById("price_display").innerHTML = `In base alla tua età (${eta}anni) e ai chilometri che devi percorrere (${km}km), il tuo biglietto avrà un costo di €${price}.`
