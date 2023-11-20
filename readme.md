@@ -10,3 +10,16 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 BONUS
 1 - Mostrare il risultato a video in html;
 2 - Stilizzare con i css la pagina
+
+
+Svolgimento:
+
+1 - creare prompt per numero di KM da percorrere
+2 - creare prompt per età
+3 - Creare dati comuni, const per €/km
+4 - creare funzione con calcolo del prezzo totale del biglietto (0.21 € al km)
+5 - creare "classi" specifiche per la scontistica:
+5.a - 20% sc per i < 18 anni
+5.b - 40% sc per i > 65 anni
+5.c prezzo pieno per >= 18 anni fino a <= 65 anni
+6 - creare output utilizzando tofixed
