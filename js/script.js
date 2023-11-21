@@ -27,10 +27,6 @@ else if (eta > 65){
     console.log(full_price);
 }
 
-else{
-    full_price = full_price
-}
-
 // 6 - Creazione output utilizzando toFixed
 let price = full_price.toFixed(2);
 console.log(price)
